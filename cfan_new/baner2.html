@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>Cfan Baner</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <style>
+
+         * { 
+         font-family: Arial, Helvetica, sans-serif;
+         margin: 0;
+         padding: 0;
+         box-sizing: border-box; 
+         }
+         @media (max-width: 450px) {           
+         .first_div .lefts {
+         width: 100% !important; 
+         text-align: center !important;
+         }
+         .first_div .rights {
+         width: 100% !important;
+         text-align: center !important;
+         }
+         .first_div .rights > h1 {
+         width: 100% !important;
+         text-align: center !important;
+         margin-top: 20px; 
+         font-size: 28px !important;
+         line-height: 30px !important;
+         }
+         .first_div .rights > p {
+         position: static !important;
+         text-align: center !important; 
+         }
+         }
+
+         @media (max-width: 576px) {                 
+
+            .second_div p {
+               font-size: 16px !important; 
+            }
+
+            .second_div ul li input[type="radio"] {
+                width: 18px !important; 
+                height: 18px !important; 
+            }  
+
+            .second_div ul li label { 
+                font-size: 16px !important; 
+            }    
+
+            .second_div ul {
+               margin-left: 24px !important; 
+            }       
+
+         }
+
+      </style> 
+   </head>
+   <body style="background: #eee;">                    
+      <div class="main_layout" style="padding: 0;
+         width: 100%;
+         max-width: 850px;
+         margin: auto; 
+         height: 100vh; background: #fff; "> 
+         <div class="first_div" style="background: #989798; padding: 25px;">
+            <div style="display: flex; flex-wrap: wrap;"> 
+               <div class="lefts" style="width: 50%;">
+                  <img src="img/cfan_logo.svg" alt="Cfan Logo" style="max-width: 120px;" />   
+               </div>
+               <div class="rights" style="width: 50%; text-align: right; position: relative;">
+                  <h1 style="
+                     font-style: normal;
+                     font-weight: normal;
+                     font-size: 36px;
+                     line-height: 40px;
+                     text-align: right;
+                     color: #FFFFFF;">Joanne Withers <br> <span style="
+                     font-style: normal;
+                     font-weight: normal;
+                     font-size: 20px;
+                     line-height: 28px;
+                     text-align: right;
+                     color: #FFFFFF;">Adviser</span></h1> 
+                  <p style="position: absolute;
+                     bottom: -4px;
+                     right: 0;
+                     font-style: normal;
+                     font-weight: 600;
+                     font-size: 17px;
+                     line-height: 28px;
+                     text-align: right;
+                     color: #F79234;
+                     letter-spacing: 1px;
+                     ">Customer Survey</p> 
+               </div>
+            </div>
+         </div>
+
+         <!-- second div start -->      
+              <div class="second_div" style="padding: 40px 15px; background: #fff;">   
+
+                   <div style="padding: 0 20px; margin-bottom: 30px;">
+                        <p style="color: #444;font-size: 18px;margin-bottom: 20px; display: flex;"> 
+                           <strong style="padding-right: 5px;">1).</strong> <span>Was (Adviser1-Adviser1@dev.cfan.co.nz) your Advisor ?</span>
+                        </p> 
+                        <ul style="width: 100%;margin-left: 26px;padding: 0;">  
+                            <li style="list-style: none; margin-bottom: 15px; color: #666; font-size: 18px; "> 
+                                 <input type="radio" name="gender" value="yes" style="width: 20px;
+    height: 20px;">
+                                 <label for="yes" style="position: relative; bottom: 4px;     padding-left: 5px;">Yes</label> 
+                            </li>
+                            <li style="list-style: none; margin-bottom: 15px; color: #666; font-size: 18px; ">
+                                 <input type="radio" name="gender" value="no" style="width: 20px;
+    height: 20px;">
+                                 <label for="no" style="position: relative; bottom: 4px;     padding-left: 5px;">No</label> 
+                             </li>
+                        </ul> 
+                   </div>
+
+                   <!-- repeated div -->
+
+                   <div style="padding: 0 20px; margin-bottom: 30px;">
+                        <p style="color: #444;font-size: 18px;margin-bottom: 20px; display: flex;"> 
+                           <strong style="padding-right: 5px;">2).</strong> <span>Do you know what insurance cover has been put for you ?</span> 
+                        </p> 
+                        <ul style="width: 100%;margin-left: 26px;padding: 0;">  
+                            <li style="list-style: none; margin-bottom: 15px; color: #666; font-size: 18px; "> 
+                                 <input type="radio" name="gender" value="yes" style="width: 20px;
+    height: 20px;">
+                                 <label for="yes" style="position: relative; bottom: 4px;     padding-left: 5px;">Yes</label> 
+                            </li>
+                            <li style="list-style: none; margin-bottom: 15px; color: #666; font-size: 18px; ">
+                                 <input type="radio" name="gender" value="no" style="width: 20px;
+    height: 20px;">
+                                 <label for="no" style="position: relative; bottom: 4px;     padding-left: 5px;">No</label> 
+                             </li>
+                        </ul>
+                   </div>
+
+
+              </div>
+         <!-- second div end -->
+
+      </div>
+   </body>
+</html>
