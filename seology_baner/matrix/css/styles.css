@@ -1,0 +1,35 @@
+/*seology baner start code css*/
+
+.baner_layout {
+    padding-top: 100px; 
+}
+
+.baner_layout .baner_move img {
+    width: 100%;
+    max-height: 250px;
+    object-fit: contain;
+}
+.baner_layout .customer-services {
+    width: 100%;
+}
+.baner_layout .customer-services h1 { 
+    text-align: center;
+    font-family: "Rubik", sans-serif;
+    font-size: 55px;
+    font-weight: bold;
+    margin-bottom: 60px;
+}
+.baner_layout .customer-services h1 > span { 
+    background: #00B585;
+    padding: 10px 16px;
+    color: #fff;
+} 
+
+
+@media screen and (min-width: 1200px) {
+    .baner_layout .container {
+        max-width: 1280px;
+    }
+}
+
+/*seology baner start code css*/

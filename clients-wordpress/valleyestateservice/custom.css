@@ -1,0 +1,67 @@
+
+#wpsm_testi_b_row_76 .wpsm_testimonial .wpsm_testi_content {
+    background: #f3f3f3 !important;
+}
+a.copy_logo img {
+    width: 120px;
+}
+.single.single-post .post-excerpt p {
+    line-height: 21px;
+    font-size: 15px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    color: #222;
+}
+.single.single-post .post-excerpt.entry-content ol li{
+	font-family: Lato !important;
+	font-size: 15px;
+	color: #222 !important;
+}
+a.show_btn:hover{
+	color: #fff!important;
+}
+a.show_btn {
+    box-shadow: 3px 5px 20px 1px #ccc;
+    padding: 10px 15px !important;
+    border-radius: 6px;
+    background: #2b6ca3;
+    color: #fff;
+    font-family: 'Poppins', sans-serif !IMPORTANT;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-align: center !important;
+}
+.single.single-post .post-excerpt.entry-content ul li{
+	font-family: Lato !important;
+	font-size: 15px;
+	color: #222 !important;
+}
+#wpsm_testi_b_row_76 .wpsm_testimonial .wpsm_testi_description {
+    padding: 10px 0px !important;
+}
+.primary-menu .dropdown-menu > li > a.pro-link {
+    background-color: hsla(0, 0%, 91%, 0) !Important;
+}
+/* .contact-info ul li a:hover {
+    color: #000 !IMPORTANT; */
+
+ul.foot_add li a {
+	font-size:12px;
+}
+ul.nav.navbar-nav.social-btns li a:hover i {
+    color: #8a3571 !important;
+}
+
+@media screen and (max-width: 767px) {
+    .navbar.mobile-menu-cont {
+        position: relative;
+        z-index: 100000 !important; 
+    }
+
+    .mobile-header-top { 
+        position: relative;
+        z-index: 100000 !important;
+    }
+
+}
