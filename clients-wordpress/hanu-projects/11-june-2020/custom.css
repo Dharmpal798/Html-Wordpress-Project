@@ -1,0 +1,296 @@
+/* 1 june 2020 start code css */
+
+/* div.first_txt {
+  width: 100%;
+    display: block;
+    clear: both;
+}
+div br {
+    display: none; 
+}
+div.first_txt > span {
+    display: block;
+    width: 100%;
+}
+div.get_touch {
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+div.get_touch > a {
+    background: #f7931e;
+    font-size: 14px!important;
+    color: #fff !important;
+    font-weight: bold;
+    border: 0px;
+    padding: 10px 25px;
+    text-transform: uppercase;
+}
+div.get_touch > a:hover {
+    background: #00aeef;
+    transition: background .25s ease-in;
+}
+section#nav_menu-2 
+.menu-footer-container ul#menu-footer li {
+   margin-bottom: 10px;
+}
+section#nav_menu-2 
+.menu-footer-container ul#menu-footer li a {
+     font-size: 16px;
+}
+#mk-footer 
+.footer-wrapper.mk-grid {
+    padding: 15px 0;
+}
+section#mk-footer 
+#sub-footer
+.mk-footer-copyright {
+    font-size: 14px;
+}
+section#mk-footer 
+#sub-footer 
+ul#menu-sub-footer li a {
+    font-size: 14px;
+}
+#mk-footer .footer-wrapper.mk-grid 
+    .mk-padding-wrapper 
+.mk-col-1-5 
+section#text-2 img.alignleft {
+     margin-top: -12px;
+}
+@media (min-width: 576px) and (max-width: 800px) {
+    #mk-footer .footer-wrapper.mk-grid .mk-padding-wrapper .mk-col-1-5 section#text-2 img.alignleft {
+    margin-top: 0;
+}
+    section#mk-footer 
+    .footer-wrapper.mk-grid 
+    .mk-padding-wrapper {
+        display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    }
+    #mk-footer .footer-wrapper.mk-grid 
+    .mk-padding-wrapper 
+    .mk-col-1-5 {
+    max-width: 50%;
+        width: 50%;
+}
+    #mk-footer .footer-wrapper.mk-grid 
+    .mk-padding-wrapper 
+    .mk-col-1-5:nth-child(3)  {
+    display: none;
+}
+    #mk-footer .footer-wrapper.mk-grid 
+    .mk-padding-wrapper 
+.alignleft, 
+    #mk-footer .footer-wrapper.mk-grid 
+    .mk-padding-wrapper      img.alignleft {
+      float: none;
+        margin-right: 0px;
+    }
+
+#mk-footer .footer-wrapper.mk-grid 
+    .mk-padding-wrapper 
+    .mk-col-1-5 
+  .widget_social_networks .align-left {
+    text-align: center;
+}
+    div.get_touch {
+        text-align: center;
+    }
+.mk-grid 
+    .mk-padding-wrapper 
+    .mk-col-1-5  
+    img.alignright {
+        float: none; 
+        margin-top: 0px !important; 
+    }
+div.first_txt {
+    margin-top: -20px;
+}
+}
+
+@media (max-width: 575px) {
+        #mk-footer .footer-wrapper.mk-grid .mk-padding-wrapper .mk-col-1-5 section#text-2 img.alignleft {
+    margin-top: 0;
+}
+    section#mk-footer 
+    .footer-wrapper.mk-grid 
+    .mk-padding-wrapper {
+        display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    }
+    #mk-footer .footer-wrapper.mk-grid 
+    .mk-padding-wrapper 
+    .mk-col-1-5 {
+    max-width: 100%;
+}
+    #mk-footer .footer-wrapper.mk-grid 
+    .mk-padding-wrapper 
+    .mk-col-1-5:nth-child(3)  {
+    display: none;
+}
+    #mk-footer .footer-wrapper.mk-grid 
+    .mk-padding-wrapper 
+.alignleft, 
+    #mk-footer .footer-wrapper.mk-grid 
+    .mk-padding-wrapper      img.alignleft {
+      float: none;
+        margin-right: 0px;
+    } 
+
+#mk-footer .footer-wrapper.mk-grid 
+    .mk-padding-wrapper 
+    .mk-col-1-5 
+  .widget_social_networks .align-left {
+    text-align: center;
+}
+    div.get_touch {
+        text-align: center;
+    }
+.mk-grid 
+    .mk-padding-wrapper 
+    .mk-col-1-5  
+    img.alignright {
+        float: none; 
+        margin-top: 0px !important; 
+    }
+div.first_txt {
+    margin-top: -20px;
+}
+}  */
+
+/*5 june 2020 start code css*/
+
+section.vc_section.cloud-assessment {
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.04);
+    background-color: #ffffff;
+    padding: 0 0px;
+    /*margin-top: -30px;*/
+}
+section.vc_section.cloud-assessment h2 { 
+    font-weight: 600 !important;
+    color: #333 !important;
+    font-family: "proxima-nova",arial,sans-serif !important;
+    font-size: 22px !important;
+}
+section.vc_section.cloud-assessment ul.Hanu-ad {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+section.vc_section.cloud-assessment ul.Hanu-ad li {
+    position: relative;
+    display: inline-block;
+    margin-right: 30px;
+    opacity: 0.8;
+    transition: 0.4s;
+}    
+
+section.vc_section.cloud-assessment .wpb_wrapper h3 a {
+    position: relative;
+    padding: 12px 22px;
+    padding-right: 20px;
+    font-size: 0.8em;
+    color: #ffffff;
+    background-color: #f1931e;
+    outline: 0px;
+    border: 0px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.4s;
+    text-align: center;
+    font-weight: 600;
+}   
+
+section.vc_section.cloud-assessment .third-write {
+    text-align: right;
+}
+
+.page-id-3715 #theme-page .theme-page-wrapper .theme-content {
+    padding: 0 20px;
+}
+
+section.vc_section.cloud-assessment .wpb_content_element.wpb_raw_html {
+    margin-bottom: 0;
+}
+
+section.vc_section.post-assessment {
+
+}
+
+section.vc_section.post-assessment > .wpb_row.vc_row.vc_row-fluid.first_baners {
+    position: relative;
+    margin-top: 45px;
+    width: 100%;
+    padding: 8px 26px 15px 25px;
+    box-sizing: border-box;
+    background-image: linear-gradient(to right top, #3aa163, #31ad60, #26b95c, #18c556, #04d14e);
+    box-shadow: 0px 10px 24px rgba(70, 70, 70, 0.2);
+    border-radius: 6px;
+}
+
+section.vc_section.post-assessment > .wpb_row.vc_row.vc_row-fluid.first_baners h2 {
+    font-size: 26px;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 20px;
+}
+
+section.vc_section.post-assessment > .wpb_row.vc_row.vc_row-fluid.first_baners  
+.banner-bottom-body {
+    position: relative;
+}
+
+section.vc_section.post-assessment > .wpb_row.vc_row.vc_row-fluid.first_baners  
+.banner-bottom-body > div { 
+    position: relative;
+    width: 15.9%;
+    padding: 20px 0px;
+    display: inline-table;
+}
+
+.section.vc_section.post-assessment .banner-bottom-body div div {
+    padding: 0px 13px;
+    display: inline-table; 
+}
+
+.section.vc_section.post-assessment .banner-bottom-body div div img {
+    vertical-align: middle;
+}
+
+.section.vc_section.post-assessment .banner-bottom-body p {
+    display: inline-table;
+    font-size: 14px;
+    width: 120px;
+    color: #ffffff;
+    margin: 0px;
+    vertical-align: middle;
+}
+
+.section.vc_section.post-assessment > .wpb_row.vc_row.vc_row-fluid.first_baners 
+.banner-bottom-body > span { 
+    padding: 0px 15px;
+}
+
+/*5 june 2020 end code css*/                
+
+/*7 june 2020 start code css*/
+
+.live_creats {
+	
+}
+
+/*7 june 2020 end code css*/
+
+
+
+
+
+
+
